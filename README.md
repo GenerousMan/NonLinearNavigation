@@ -1,2 +1,4 @@
-# mm_sim
-mm_sim_project
+# NonLinear Interactive Video For Shopping Navigation
+Code for paper 《Automatic Generation of Interactive Nonlinear Video for Online Apparel Shopping Navigation》.
+
+Waiting for more details...
