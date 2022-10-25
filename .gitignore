@@ -15,6 +15,5 @@
 *.pkl
 *.csv
 *.json
-*.png
 *.DS_Store
 *.txt
