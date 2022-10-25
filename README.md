@@ -16,7 +16,9 @@ We present an automatic generation pipeline of interactive nonlinear video for o
 ## Theoretical support
 
 # Messy Middle
-![image](https://github.com/GenerousMan/NonLinearNavigation/imgs/messy_middle.jpeg)
+<p align='center'>
+    <img src="imgs/messy_middle.jpeg", width="500">
+</p>
 Prior work has studied the behavioral logic of consumers and a "messy middle" theory was proposed, which noted that consumers often wander in the two states of exploration and evaluation when shopping online. Consumers explore their options and expand their consideration sets; then – either sequentially or simultaneously – they evaluate the options and narrow down their choices. Existing online shopping methods need to constantly switch pages to view and compare products. Such a shopping method reduces the exploration and evaluation efficiency and increases the time for customers to make a decision.
 
 To shorten the shopping time between product exploration and decision-making, we propose an automatic approach for generating nonlinear videos into two-level, coarse-level exploration and fine-level evaluation, in support of online clothing shopping navigation. Our approach can automatically generate interactive nonlinear videos for product presentation and comparison based on consumers’ interactions.
