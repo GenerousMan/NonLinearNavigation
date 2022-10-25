@@ -1,6 +1,9 @@
 # NonLinear Interactive Video For Shopping Navigation
 Code of paper 《Automatic Generation of Interactive Nonlinear Video for Online Apparel Shopping Navigation》.
 
+<p align='center'>
+    <img src="imgs/pipeline.png", width="800">
+</p>
 
 **Notably, using interactive video to implement shopping navigation is a new research topic, and our solution is of course not perfect. Please refer to our failure cases and limitations before using this repo.**
 
