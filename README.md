@@ -1,4 +1,4 @@
-## NonLinear Interactive Video For Shopping Navigation
+# NonLinear Interactive Video For Shopping Navigation
 Code of paper 《Automatic Generation of Interactive Nonlinear Video for Online Apparel Shopping Navigation》.
 
 
@@ -13,9 +13,7 @@ Code of paper 《Automatic Generation of Interactive Nonlinear Video for Online 
 We present an automatic generation pipeline of interactive nonlinear video for online apparel shopping navigation. Our approach is inspired by Google’s "Messy Middle" theory, which suggests that people mentally have two tasks of exploration and evaluation before purchasing. Given a set of apparel product presentation videos, our navigation UI will organize these videos for users’ product exploration and automatically generate interactive videos for user product evaluation. To support automatic methods, we propose a video clustering similarity (CSIM) and a camera movement similarity (MSIM), as well as a comparative video generation algorithm for product recommendation, presentation, and comparison. To evaluate our pipeline’s effectiveness, we conducted several user studies. The results show that our pipeline can help users complete the consumption process more efficiently, making it easier for users to understand and choose the product.
 
 
-## Theoretical support
-
-# Messy Middle
+## Theoretical support —— Messy Middle
 <p align='center'>
     <img src="imgs/messy_middle.jpeg", width="500">
 </p>
