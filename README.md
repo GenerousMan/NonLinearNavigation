@@ -22,9 +22,6 @@ Prior work has studied the behavioral logic of consumers and a "messy middle" th
 To shorten the shopping time between product exploration and decision-making, we propose an automatic approach for generating nonlinear videos into two-level, coarse-level exploration and fine-level evaluation, in support of online clothing shopping navigation. Our approach can automatically generate interactive nonlinear videos for product presentation and comparison based on consumers’ interactions.
 
 
-
-# Preparation
-
 ## Requirements
 
 ``` bash
@@ -37,15 +34,14 @@ pip install requirements.txt
 - [Unet]
 - [ML Models]
 
-# Usage
 
-## Exploration
+## Usage - Exploration
 
 ``` bash
 python examples/example_recommend.py
 ```
 
-## Evaluation
+## Usage - Evaluation
 
 ``` bash
 python 
