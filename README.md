@@ -23,29 +23,29 @@ To shorten the shopping time between product exploration and decision-making, we
 
 
 
-## Preparation
+# Preparation
 
-# Requirements
+## Requirements
 
 ``` bash
 pip install requirements.txt
 ```
 
-# Weights
+## Weights
 - [AlphaPose]
 - [Fashion]
 - [Unet]
 - [ML Models]
 
-## Usage
+# Usage
 
-# Exploration
+## Exploration
 
 ``` bash
 python examples/example_recommend.py
 ```
 
-# Evaluation
+## Evaluation
 
 ``` bash
 python 
