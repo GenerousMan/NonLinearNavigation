@@ -8,6 +8,7 @@ def calc_roi_of_videos(videos, taskId=None):
     temp_frame_count = 0
     yolo = YOLO_TF()
     for vi, video in enumerate(videos):
+        video.has_roi = True
         print(video.name)
         fps = video.fps
         frame_interval = fps * video.sample_time_interval

@@ -163,7 +163,7 @@ def init(test_path, video_path, result_path, pickle_path,w_list):
 
 if __name__ =="__main__":
     # 对指定文件夹的所有视频进行统一计算
-    test_path = "/root/ali-2021/mm_sim/source/template_video/"
+    test_path = "source/template_video/"
     video_path = test_path+"videos/"
     result_path = test_path+"results/"
     pickle_path = test_path+"pickle/"

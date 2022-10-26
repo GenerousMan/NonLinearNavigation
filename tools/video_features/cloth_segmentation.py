@@ -81,7 +81,6 @@ def unet_predict(unet: Unet, img_tensor, img_numpy,
     
     classes_in_video = []
     mask_in_video = []
-    print("shape all:",prediction_map_all.shape)
     print(prediction_map_all.shape[0],len(img_numpy))
     # Remove spurious classes
     for i in range(prediction_map_all.shape[0]):
@@ -199,7 +198,7 @@ def get_video_seg(model, video_path, debug = False):
 
 if __name__ =="__main__":
 
-    calc_seg_of_videos([Video("./source/test_cuts/videos/1_4.mp4")])
+    calc_seg_of_videos([Video("./source/video/1_12.mp4")])
 
     # video_dir = "./source/video/"
     # files = os.listdir(video_dir)

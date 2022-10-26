@@ -69,7 +69,7 @@ def calc_pose_of_videos_v2(videos, taskId=None):
 
     data_len = data_loader.length()
     im_names_desc = tqdm(range(data_len))
-    batchSize = 20
+    batchSize = 10
 
     for i in im_names_desc:
         start_time = getTime()
@@ -115,6 +115,7 @@ def calc_pose_of_videos_v2(videos, taskId=None):
 
     result_index = 0
     for video in videos:
+        video.has_pose = True
         for frame in video.frames:
             frame.alphapose = get_pose(results[result_index]['result'])[0]
             result_index += 1

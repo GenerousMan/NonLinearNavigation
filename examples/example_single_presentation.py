@@ -49,10 +49,10 @@ model.load_state_dict(torch.load('libs/Detail/models/4_38_model.pkl'))
 model.eval()
 
 # load videos and preprocess. 
-video_dir = './test/cuts/8/'
+video_dir = './source/YOUR_CUTS_FOLDER/' # Put your shots here. 
 video_names = os.listdir(video_dir)
 
-output_dir = './test/output/'+video_dir.split('test/')[-1]
+output_dir = './results/'+video_dir.split('source/')[-1]
 if(not os.path.exists(output_dir)):
     os.makedirs(output_dir)
 else:

@@ -38,16 +38,42 @@ pip install requirements.txt
 - [ML Models]
 
 
-## Usage - Exploration
+## Usage - Video Association Algorithm
+
+In the video association algorithm, we sample the input product video at intervals of $t$ frames and extract the feature $F=\{F^{cate}, F^{attr}, F^{color}\}$. We construct a graph through the average of all features $F$ and use this graph to show the associations of categories, attributes, and colors between clothing products. Video association algorithms can be divided into feature extraction and graph construction.
+
+<p align='center'>
+    <img src="imgs/exploration.jpg", width="800">
+</p>
+
+To recommend similar products (in many product videos), you can use this command:
 
 ``` bash
 python examples/example_recommend.py
 ```
 
-## Usage - Evaluation
+It may takes long time to extract features and build the products' graph. After calculating all features of all videos, we will save them in a .pickle file. If there are lots of video nodes, it will also take a lot of space to save the graph.
+
+
+## Usage - Shot Association Algorithm
+
+In the shot association algorithm, we automatically attach detail shots to the full shot. When consumers evaluate the product, they can click the area of interest in the video to obtain more targeted information. The algorithm can be divided into video shot classification, detailed shot classification, and keypoint detection.
+
+<p align='center'>
+    <img src="imgs/evaluation.png", width="800">
+</p>
+
+
+To associate close-up shots and full-shot, you can use this command:
 
 ``` bash
-python 
+python examples/example_single_presentation.py
 ```
+
+This example will only generate the keypoints' position in the full-shot, and the classification results of close-up.
+
+These results will be output as a .yaml file. Through our player, we can play this .yaml file as an interactive video.
+
+
 
 
