@@ -33,7 +33,7 @@ pip install requirements.txt
 
 ## Weights
 
-- [Attribute and Category](https://drive.google.com/drive/folders/1vfO2GXi0wsJQ6zvPRSKOIMYLLAAvncuG?usp=sharing) Put in libs/Fashion/checkpoints/, to predict the attributes and categories of apparel products in videos.
+- [\[Attribute and Category\]](https://drive.google.com/drive/folders/1vfO2GXi0wsJQ6zvPRSKOIMYLLAAvncuG?usp=sharing) Put in libs/Fashion/checkpoints/, to predict the attributes and categories of apparel products in videos.
 - [\[Unet\]](https://drive.google.com/drive/folders/1lssxarbbnPggT94pEnwqnVPSGpNdFAo1?usp=sharing) Put in libs/unet_segmentation/, to segment the apparel products in videos.
 - [\[Detail Classification\]](https://drive.google.com/drive/folders/1QgcrP0ZMKDTb8A2tHxonM_3mys-jkMVO?usp=sharing) Put in libs/Detail/models/, to classify the detail shots.
 - [\[Landmark\]](https://drive.google.com/drive/folders/1BI7GLUjwdPguVpxneGPQK8dnPXkM_sBi?usp=sharing) Put in libs/Landmark/models/, to predict the clothing landmarks in full-shots.
