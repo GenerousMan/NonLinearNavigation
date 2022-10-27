@@ -77,4 +77,24 @@ This example will only generate the keypoints' position in the full-shot, and th
 
 
 
+## Usage - Comparative Video Generation Algorith
 
+The comparison algorithm we propose is designed to help consumers compare multiple interested products simultaneously. When comparing products, consumers can select the view (such as whole, medium, close-up) and direction (such as left, right, front, back) of the clothing in the video. Based on shots filtered by these tags, we train a neural network to generate a comparative video according to the optical flow features of camera movement. The comparative video generation algorithm can be divided into shot label extraction, optical flow feature calculation, and shot sequence generation.
+
+<p align='center'>
+    <img src="imgs/optical_CNN.jpg", width="800">
+</p>
+
+To generate comparative shot sequence, you can use this command:
+
+``` bash
+cd examples/example_compare/
+jupyter notebook
+```
+
+We prepare four examples in the folder.
+
+[\[example_raft.ipynb\]](examples/example_compare/example_raft.ipynb): The example of using raft to get optical features.
+[\[example_optical_flow.ipynb\]](examples/example_compare/example_optical_flow.ipynb): The example of using opencv to get optical features.
+[\[example_train_editor.ipynb\]](examples/example_compare/example_train_editor.ipynb): The example of training our DCDP-CNN.
+[\[example_cut_editor.ipynb\]](examples/example_compare/example_cut_editor.ipynb): The example of using DCDP-CNN to generate shot sequences.
