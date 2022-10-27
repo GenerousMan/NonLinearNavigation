@@ -78,7 +78,7 @@ This example will only generate the keypoints' position in the full-shot, and th
 
 
 
-## Usage - Comparative Video Generation Algorith
+## Usage - Comparative Video Generation Algorithm
 
 The comparison algorithm we propose is designed to help consumers compare multiple interested products simultaneously. When comparing products, consumers can select the view (such as whole, medium, close-up) and direction (such as left, right, front, back) of the clothing in the video. Based on shots filtered by these tags, we train a neural network to generate a comparative video according to the optical flow features of camera movement. The comparative video generation algorithm can be divided into shot label extraction, optical flow feature calculation, and shot sequence generation.
 
