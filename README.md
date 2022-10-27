@@ -32,14 +32,14 @@ pip install requirements.txt
 ```
 
 ## Weights
-- [AlphaPose](https://drive.google.com/drive/folders/1Fi_jvlc3kZUwwi6d6xikgd9ZGePTpYEh?usp=sharing)
-- [Attribute and Category](https://drive.google.com/drive/folders/1vfO2GXi0wsJQ6zvPRSKOIMYLLAAvncuG?usp=sharing)
-- [Unet](https://drive.google.com/drive/folders/1lssxarbbnPggT94pEnwqnVPSGpNdFAo1?usp=sharing)
-- [ML Models](https://drive.google.com/drive/folders/1SZ3kZFp6NJGVMQkpYnc1Y_YcEjuRHqQu?usp=sharing)
-- [Detail Classification](https://drive.google.com/drive/folders/1QgcrP0ZMKDTb8A2tHxonM_3mys-jkMVO?usp=sharing)
-- [Landmark](https://drive.google.com/drive/folders/1BI7GLUjwdPguVpxneGPQK8dnPXkM_sBi?usp=sharing)
-- [MaskROI](https://drive.google.com/drive/folders/1WPAnizJJ_tfr1Q5uESxzy3a_L0HPdK-B?usp=sharing)
 
+- [Attribute and Category](https://drive.google.com/drive/folders/1vfO2GXi0wsJQ6zvPRSKOIMYLLAAvncuG?usp=sharing) Put in libs/Fashion/checkpoints/, to predict the attributes and categories of apparel products in videos.
+- [\[Unet\]](https://drive.google.com/drive/folders/1lssxarbbnPggT94pEnwqnVPSGpNdFAo1?usp=sharing) Put in libs/unet_segmentation/, to segment the apparel products in videos.
+- [\[Detail Classification\]](https://drive.google.com/drive/folders/1QgcrP0ZMKDTb8A2tHxonM_3mys-jkMVO?usp=sharing) Put in libs/Detail/models/, to classify the detail shots.
+- [\[Landmark\]](https://drive.google.com/drive/folders/1BI7GLUjwdPguVpxneGPQK8dnPXkM_sBi?usp=sharing) Put in libs/Landmark/models/, to predict the clothing landmarks in full-shots.
+- [\[MaskROI\]](https://drive.google.com/drive/folders/1WPAnizJJ_tfr1Q5uESxzy3a_L0HPdK-B?usp=sharing) Put in libs/maskRoi/weights/, to predict the ROI of human in frames.
+- [\[AlphaPose\]](https://drive.google.com/drive/folders/1Fi_jvlc3kZUwwi6d6xikgd9ZGePTpYEh?usp=sharing) Put in libs/AlphaPose/models/, to detect the keypoints of people in frames.
+- [\[ML Models\]](https://drive.google.com/drive/folders/1SZ3kZFp6NJGVMQkpYnc1Y_YcEjuRHqQu?usp=sharing) Put in model/, to obtain advantage features, such as view, direction of people in frame.
 
 ## Usage - Video Association Algorithm
 
