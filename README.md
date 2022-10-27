@@ -32,10 +32,13 @@ pip install requirements.txt
 ```
 
 ## Weights
-- [AlphaPose]
-- [Fashion]
-- [Unet]
-- [ML Models]
+- [AlphaPose](https://drive.google.com/drive/folders/1Fi_jvlc3kZUwwi6d6xikgd9ZGePTpYEh?usp=sharing)
+- [Attribute and Category](https://drive.google.com/drive/folders/1vfO2GXi0wsJQ6zvPRSKOIMYLLAAvncuG?usp=sharing)
+- [Unet](https://drive.google.com/drive/folders/1lssxarbbnPggT94pEnwqnVPSGpNdFAo1?usp=sharing)
+- [ML Models](https://drive.google.com/drive/folders/1SZ3kZFp6NJGVMQkpYnc1Y_YcEjuRHqQu?usp=sharing)
+- [Detail Classification](https://drive.google.com/drive/folders/1QgcrP0ZMKDTb8A2tHxonM_3mys-jkMVO?usp=sharing)
+- [Landmark](https://drive.google.com/drive/folders/1BI7GLUjwdPguVpxneGPQK8dnPXkM_sBi?usp=sharing)
+- [MaskROI](https://drive.google.com/drive/folders/1WPAnizJJ_tfr1Q5uESxzy3a_L0HPdK-B?usp=sharing)
 
 
 ## Usage - Video Association Algorithm
@@ -70,9 +73,7 @@ To associate close-up shots and full-shot, you can use this command:
 python examples/example_single_presentation.py
 ```
 
-This example will only generate the keypoints' position in the full-shot, and the classification results of close-up.
-
-These results will be output as a .yaml file. Through our player, we can play this .yaml file as an interactive video.
+This example will only generate the keypoints' position in the full-shot, and the classification results of close-up. These results will be saved as a .yaml file. Through our player, we can play this .yaml file as an interactive video.
 
 
 
