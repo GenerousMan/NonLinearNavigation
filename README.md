@@ -94,7 +94,10 @@ jupyter notebook
 
 We prepare four examples in the folder.
 
-[\[example_raft.ipynb\]](examples/example_compare/example_raft.ipynb): The example of using raft to get optical features.
-[\[example_optical_flow.ipynb\]](examples/example_compare/example_optical_flow.ipynb): The example of using opencv to get optical features.
-[\[example_train_editor.ipynb\]](examples/example_compare/example_train_editor.ipynb): The example of training our DCDP-CNN.
-[\[example_cut_editor.ipynb\]](examples/example_compare/example_cut_editor.ipynb): The example of using DCDP-CNN to generate shot sequences.
+- [\[example_raft.ipynb\]](examples/example_compare/example_raft.ipynb): The example of using raft to get optical features.
+
+- [\[example_optical_flow.ipynb\]](examples/example_compare/example_optical_flow.ipynb): The example of using opencv to get optical features.
+
+- [\[example_train_editor.ipynb\]](examples/example_compare/example_train_editor.ipynb): The example of training our DCDP-CNN.
+
+- [\[example_cut_editor.ipynb\]](examples/example_compare/example_cut_editor.ipynb): The example of using DCDP-CNN to generate shot sequences.
