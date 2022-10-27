@@ -8,6 +8,7 @@ Code of paper 《Automatic Generation of Interactive Nonlinear Video for Online 
 **Notably, using interactive video to implement shopping navigation is a new research topic, and our solution is of course not perfect. Please refer to our failure cases and limitations before using this repo.**
 
 ## Update
+- [2022-10-27] Add example files, in examples/.
 - [2022-10-25] Update README, to introduce out work.
 - [2022-10-19] Create the project, and upload main codes of this paper.
 
@@ -101,3 +102,9 @@ We prepare four examples in the folder.
 - [\[example_train_editor.ipynb\]](examples/example_compare/example_train_editor.ipynb): The example of training our DCDP-CNN.
 
 - [\[example_cut_editor.ipynb\]](examples/example_compare/example_cut_editor.ipynb): The example of using DCDP-CNN to generate shot sequences.
+
+## What's More
+
+We also provide many tools and examples, to help you use any unit of our methods, such as alphapose, yolo, clothing segmentation, clothing landmarks detection.
+
+In `examples/` and `tools/`, we hope you can find useful code for your work.
